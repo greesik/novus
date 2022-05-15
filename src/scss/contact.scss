@@ -1,0 +1,26 @@
+.contact {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .contact-title {
+    margin-top: 75px;
+    font-size: 50px;
+  }
+  .contact-details {
+    height: 400px;
+    background: navy;
+    .contact-details-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+    }
+  }
+  .contact-map {
+    height: 100%;
+    background: url("../img/map.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

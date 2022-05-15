@@ -1,0 +1,15 @@
+.main-photo {
+  height: calc(100vh - 80px);
+  background: url("../img/stock.jpeg") no-repeat;
+  background-position: bottom;
+  background-position-y: center;
+  color: white;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main-photo-title {
+      font-size: 90px;
+    }
+  }
+}

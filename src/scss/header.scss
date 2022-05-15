@@ -1,0 +1,20 @@
+.header {
+  background: black;
+  height: 80px;
+  color: white;
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    .navigation-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 60%;
+    }
+    .novus-logo {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+h2,
+h4,
+p {
+  color: black;
+}
+
+.brag {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &-title {
+    font-size: 50px;
+  }
+
+  &-subtitle {
+    font-size: 38px;
+  }
+
+  &-text {
+    margin: 32px;
+  }
+
+  &-gallery {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    li {
+      width: 50%;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      div {
+        height: 100%;
+      }
+
+      p {
+        margin-top: 12px;
+      }
+
+      .brag-photo-1 {
+        background: url("../img/brag-1.jpeg") no-repeat;
+        background-size: 200%;
+        background-position: center;
+      }
+
+      .brag-photo-2 {
+        background: url("../img/brag-5.jpeg") no-repeat;
+        background-size: 100%;
+        background-position: top;
+      }
+
+      .brag-photo-3 {
+        background: url("../img/brag-3.jpeg") no-repeat;
+        background-size: 180%;
+        background-position: right;
+      }
+
+      .brag-photo-4 {
+        background: url("../img/brag-2.jpeg") no-repeat;
+        background-size: 180%;
+        background-position: right;
+      }
+
+      .brag-photo-5 {
+        background: url("../img/brag-4.jpeg") no-repeat;
+        background-size: 180%;
+        background-position: center;
+      }
+    }
+  }
+}

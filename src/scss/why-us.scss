@@ -1,0 +1,50 @@
+.why-us {
+  margin-bottom: 250px;
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .icon-wrapper {
+      height: 300px;
+      width: 30%;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .icon {
+        height: 100%;
+        width: 100%;
+      }
+      .icon-1 {
+        background: url("../img/1.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+      .icon-2 {
+        background: url("../img/2.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+      .icon-3 {
+        background: url("../img/3.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+      .icon-4 {
+        background: url("../img/4.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+      .icon-5 {
+        background: url("../img/5.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+      .icon-6 {
+        background: url("../img/6.png") no-repeat;
+        background-size: 75%;
+        background-position: center;
+      }
+    }
+  }
+}
